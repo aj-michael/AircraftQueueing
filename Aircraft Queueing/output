@@ -1,0 +1,1093 @@
+WARNING: DEPRECATION WARNING: beginning in Coopr 4.0, plugins (including
+	solvers and DataPortal clients) will not be automatically registered. To
+	automatically register all plugins bundled with core Coopr, user scripts
+	should include the line, "import coopr.environ".
+# ==========================================================
+# = Solver Results                                         =
+# ==========================================================
+# ----------------------------------------------------------
+#   Problem Information
+# ----------------------------------------------------------
+Problem: 
+- Name: unknown
+  Lower bound: -2.0
+  Upper bound: -2.0
+  Number of objectives: 1
+  Number of constraints: 296
+  Number of variables: 276
+  Number of nonzeros: 666
+  Sense: maximize
+# ----------------------------------------------------------
+#   Solver Information
+# ----------------------------------------------------------
+Solver: 
+- Status: ok
+  Termination condition: optimal
+  Statistics: 
+    Branch and bound: 
+      Number of bounded subproblems: 77
+      Number of created subproblems: 77
+  Error rc: 0
+# ----------------------------------------------------------
+#   Solution Information
+# ----------------------------------------------------------
+Solution: 
+- number of solutions: 1
+  number of solutions displayed: 1
+- Gap: 0.0
+  Status: optimal
+  Objective: 
+    x1: 
+      Id: 0
+      Value: -2.0
+  Variable: 
+    x418:
+      Id: 6
+      Value: 1
+    x430:
+      Id: 18
+      Value: 1
+    x302:
+      Id: 30
+      Value: 745
+    x307:
+      Id: 31
+      Value: 920
+    x303:
+      Id: 32
+      Value: 755
+    x308:
+      Id: 33
+      Value: 895
+    x304:
+      Id: 34
+      Value: 785
+    x309:
+      Id: 35
+      Value: 1025
+    x305:
+      Id: 36
+      Value: 830
+    x310:
+      Id: 37
+      Value: 1040
+    x306:
+      Id: 38
+      Value: 820
+    x311:
+      Id: 39
+      Value: 1285
+    x297:
+      Id: 40
+      Value: 730
+    x298:
+      Id: 41
+      Value: 740
+    x299:
+      Id: 42
+      Value: 770
+    x300:
+      Id: 43
+      Value: 815
+    x301:
+      Id: 44
+      Value: 795
+    x338:
+      Id: 46
+      Value: 10
+    x339:
+      Id: 48
+      Value: 40
+    x340:
+      Id: 50
+      Value: 85
+    x341:
+      Id: 52
+      Value: 75
+    x317:
+      Id: 53
+      Value: 10
+    x344:
+      Id: 56
+      Value: 30
+    x345:
+      Id: 58
+      Value: 75
+    x346:
+      Id: 60
+      Value: 65
+    x322:
+      Id: 61
+      Value: 40
+    x323:
+      Id: 63
+      Value: 30
+    x350:
+      Id: 66
+      Value: 45
+    x351:
+      Id: 68
+      Value: 35
+    x327:
+      Id: 69
+      Value: 85
+    x328:
+      Id: 71
+      Value: 75
+    x329:
+      Id: 73
+      Value: 45
+    x331:
+      Id: 75
+      Value: 10
+    x332:
+      Id: 77
+      Value: 75
+    x333:
+      Id: 79
+      Value: 65
+    x334:
+      Id: 81
+      Value: 35
+    x360:
+      Id: 84
+      Value: 10
+    x367:
+      Id: 91
+      Value: 1
+    x372:
+      Id: 97
+      Value: 1
+    x373:
+      Id: 98
+      Value: 1
+    x377:
+      Id: 103
+      Value: 1
+    x378:
+      Id: 104
+      Value: 1
+    x379:
+      Id: 105
+      Value: 1
+    x381:
+      Id: 108
+      Value: 1
+    x382:
+      Id: 109
+      Value: 1
+    x383:
+      Id: 110
+      Value: 1
+    x384:
+      Id: 111
+      Value: 1
+    x388:
+      Id: 117
+      Value: 1
+    x389:
+      Id: 118
+      Value: 1
+    x390:
+      Id: 119
+      Value: 1
+    x391:
+      Id: 120
+      Value: 1
+    x394:
+      Id: 124
+      Value: 1
+    x395:
+      Id: 125
+      Value: 1
+    x396:
+      Id: 126
+      Value: 1
+    x400:
+      Id: 131
+      Value: 1
+    x401:
+      Id: 132
+      Value: 1
+    x410:
+      Id: 142
+      Value: 1
+    x542:
+      Id: 146
+      Value: 55
+    x543:
+      Id: 148
+      Value: 65
+    x544:
+      Id: 150
+      Value: 45
+    x545:
+      Id: 152
+      Value: 55
+    x546:
+      Id: 154
+      Value: 15
+    x547:
+      Id: 156
+      Value: 25
+    x538:
+      Id: 157
+      Value: 30
+    x539:
+      Id: 159
+      Value: 20
+    x540:
+      Id: 161
+      Value: 20
+    x541:
+      Id: 163
+      Value: 10
+    x558:
+      Id: 171
+      Value: 1
+    x559:
+      Id: 172
+      Value: 1
+    x560:
+      Id: 173
+      Value: 1
+    x561:
+      Id: 174
+      Value: 1
+    x562:
+      Id: 175
+      Value: 1
+    x563:
+      Id: 176
+      Value: 1
+    x564:
+      Id: 177
+      Value: 1
+    x565:
+      Id: 178
+      Value: 1
+    x566:
+      Id: 179
+      Value: 1
+    x567:
+      Id: 180
+      Value: 1
+    x442:
+      Id: 185
+      Value: 1
+    x443:
+      Id: 186
+      Value: 1
+    x444:
+      Id: 187
+      Value: 1
+    x445:
+      Id: 188
+      Value: 1
+    x446:
+      Id: 189
+      Value: 1
+    x447:
+      Id: 190
+      Value: 1
+    x449:
+      Id: 192
+      Value: 1
+    x450:
+      Id: 193
+      Value: 1
+    x451:
+      Id: 194
+      Value: 1
+    x452:
+      Id: 195
+      Value: 1
+    x453:
+      Id: 196
+      Value: 1
+    x454:
+      Id: 197
+      Value: 1
+    x455:
+      Id: 198
+      Value: 1
+    x456:
+      Id: 199
+      Value: 1
+    x457:
+      Id: 200
+      Value: 1
+    x458:
+      Id: 201
+      Value: 1
+    x459:
+      Id: 202
+      Value: 1
+    x461:
+      Id: 204
+      Value: 1
+    x462:
+      Id: 205
+      Value: 1
+    x463:
+      Id: 206
+      Value: 1
+    x464:
+      Id: 207
+      Value: 1
+    x465:
+      Id: 208
+      Value: 1
+    x466:
+      Id: 209
+      Value: 1
+    x467:
+      Id: 210
+      Value: 1
+    x468:
+      Id: 211
+      Value: 1
+    x469:
+      Id: 212
+      Value: 1
+    x470:
+      Id: 213
+      Value: 1
+    x471:
+      Id: 214
+      Value: 1
+    x502:
+      Id: 216
+      Value: 5
+    x503:
+      Id: 218
+      Value: 5
+    x504:
+      Id: 220
+      Value: 25
+    x505:
+      Id: 222
+      Value: 9074
+    x506:
+      Id: 224
+      Value: 9074
+    x507:
+      Id: 226
+      Value: 9074
+    x478:
+      Id: 227
+      Value: 5
+    x509:
+      Id: 230
+      Value: 5
+    x510:
+      Id: 232
+      Value: 9099
+    x511:
+      Id: 234
+      Value: 9099
+    x512:
+      Id: 236
+      Value: 9099
+    x513:
+      Id: 238
+      Value: 9099
+    x514:
+      Id: 240
+      Value: 2
+    x515:
+      Id: 242
+      Value: 2
+    x516:
+      Id: 244
+      Value: 40
+    x517:
+      Id: 246
+      Value: 40
+    x518:
+      Id: 248
+      Value: 70
+    x519:
+      Id: 250
+      Value: 100
+    x490:
+      Id: 251
+      Value: 45
+    x521:
+      Id: 254
+      Value: 8954
+    x522:
+      Id: 256
+      Value: 8954
+    x523:
+      Id: 258
+      Value: 8954
+    x524:
+      Id: 260
+      Value: 8954
+    x525:
+      Id: 262
+      Value: 8954
+    x526:
+      Id: 264
+      Value: 85
+    x527:
+      Id: 266
+      Value: 110
+    x528:
+      Id: 268
+      Value: 8709
+    x529:
+      Id: 270
+      Value: 8709
+    x530:
+      Id: 272
+      Value: 8709
+    x531:
+      Id: 274
+      Value: 8709
+  Constraint: No nonzero values
+Model Aircraft Queueing
+
+  Variables:
+    apt : Size=5, Index=Flight, Domain=NonNegativeIntegers
+        Key : Lower : Value : Upper : Initial : Fixed : Stale
+          0 :     0 : 730.0 :  None :    None : False : False
+          1 :     0 : 740.0 :  None :    None : False : False
+          2 :     0 : 770.0 :  None :    None : False : False
+          3 :     0 : 815.0 :  None :    None : False : False
+          4 :     0 : 795.0 :  None :    None : False : False
+    tot : Size=5, Index=Flight, Domain=NonNegativeIntegers
+        Key : Lower : Value : Upper : Initial : Fixed : Stale
+          0 :     0 : 745.0 :  None :    None : False : False
+          1 :     0 : 755.0 :  None :    None : False : False
+          2 :     0 : 785.0 :  None :    None : False : False
+          3 :     0 : 830.0 :  None :    None : False : False
+          4 :     0 : 820.0 :  None :    None : False : False
+    aat : Size=5, Index=Flight, Domain=NonNegativeIntegers
+        Key : Lower : Value  : Upper : Initial : Fixed : Stale
+          0 :     0 :  920.0 :  None :    None : False : False
+          1 :     0 :  895.0 :  None :    None : False : False
+          2 :     0 : 1025.0 :  None :    None : False : False
+          3 :     0 : 1040.0 :  None :    None : False : False
+          4 :     0 : 1285.0 :  None :    None : False : False
+    depDiffPos : Size=25, Index=depDiffPos_index, Domain=NonNegativeIntegers
+        Key    : Lower : Value : Upper : Initial : Fixed : Stale
+        (0, 0) :     0 :   0.0 :  None :    None : False : False
+        (0, 1) :     0 :   0.0 :  None :    None : False : False
+        (0, 2) :     0 :   0.0 :  None :    None : False : False
+        (0, 3) :     0 :   0.0 :  None :    None : False : False
+        (0, 4) :     0 :   0.0 :  None :    None : False : False
+        (1, 0) :     0 :  10.0 :  None :    None : False : False
+        (1, 1) :     0 :   0.0 :  None :    None : False : False
+        (1, 2) :     0 :   0.0 :  None :    None : False : False
+        (1, 3) :     0 :   0.0 :  None :    None : False : False
+        (1, 4) :     0 :   0.0 :  None :    None : False : False
+        (2, 0) :     0 :  40.0 :  None :    None : False : False
+        (2, 1) :     0 :  30.0 :  None :    None : False : False
+        (2, 2) :     0 :   0.0 :  None :    None : False : False
+        (2, 3) :     0 :   0.0 :  None :    None : False : False
+        (2, 4) :     0 :   0.0 :  None :    None : False : False
+        (3, 0) :     0 :  85.0 :  None :    None : False : False
+        (3, 1) :     0 :  75.0 :  None :    None : False : False
+        (3, 2) :     0 :  45.0 :  None :    None : False : False
+        (3, 3) :     0 :   0.0 :  None :    None : False : False
+        (3, 4) :     0 :  10.0 :  None :    None : False : False
+        (4, 0) :     0 :  75.0 :  None :    None : False : False
+        (4, 1) :     0 :  65.0 :  None :    None : False : False
+        (4, 2) :     0 :  35.0 :  None :    None : False : False
+        (4, 3) :     0 :   0.0 :  None :    None : False : False
+        (4, 4) :     0 :   0.0 :  None :    None : False : False
+    depDiffNeg : Size=25, Index=depDiffNeg_index, Domain=NonNegativeIntegers
+        Key    : Lower : Value : Upper : Initial : Fixed : Stale
+        (0, 0) :     0 :   0.0 :  None :    None : False : False
+        (0, 1) :     0 :  10.0 :  None :    None : False : False
+        (0, 2) :     0 :  40.0 :  None :    None : False : False
+        (0, 3) :     0 :  85.0 :  None :    None : False : False
+        (0, 4) :     0 :  75.0 :  None :    None : False : False
+        (1, 0) :     0 :   0.0 :  None :    None : False : False
+        (1, 1) :     0 :   0.0 :  None :    None : False : False
+        (1, 2) :     0 :  30.0 :  None :    None : False : False
+        (1, 3) :     0 :  75.0 :  None :    None : False : False
+        (1, 4) :     0 :  65.0 :  None :    None : False : False
+        (2, 0) :     0 :   0.0 :  None :    None : False : False
+        (2, 1) :     0 :   0.0 :  None :    None : False : False
+        (2, 2) :     0 :   0.0 :  None :    None : False : False
+        (2, 3) :     0 :  45.0 :  None :    None : False : False
+        (2, 4) :     0 :  35.0 :  None :    None : False : False
+        (3, 0) :     0 :   0.0 :  None :    None : False : False
+        (3, 1) :     0 :   0.0 :  None :    None : False : False
+        (3, 2) :     0 :   0.0 :  None :    None : False : False
+        (3, 3) :     0 :   0.0 :  None :    None : False : False
+        (3, 4) :     0 :   0.0 :  None :    None : False : False
+        (4, 0) :     0 :   0.0 :  None :    None : False : False
+        (4, 1) :     0 :   0.0 :  None :    None : False : False
+        (4, 2) :     0 :   0.0 :  None :    None : False : False
+        (4, 3) :     0 :  10.0 :  None :    None : False : False
+        (4, 4) :     0 :   0.0 :  None :    None : False : False
+    depDiffZ1 : Size=25, Index=depDiffZ1_index, Domain=NonNegativeIntegers
+        Key    : Lower : Value : Upper : Initial : Fixed : Stale
+        (0, 0) :     0 :   0.0 :  None :    None : False : False
+        (0, 1) :     0 :   0.0 :  None :    None : False : False
+        (0, 2) :     0 :   0.0 :  None :    None : False : False
+        (0, 3) :     0 :   0.0 :  None :    None : False : False
+        (0, 4) :     0 :   0.0 :  None :    None : False : False
+        (1, 0) :     0 :   1.0 :  None :    None : False : False
+        (1, 1) :     0 :   0.0 :  None :    None : False : False
+        (1, 2) :     0 :   0.0 :  None :    None : False : False
+        (1, 3) :     0 :   0.0 :  None :    None : False : False
+        (1, 4) :     0 :   0.0 :  None :    None : False : False
+        (2, 0) :     0 :   1.0 :  None :    None : False : False
+        (2, 1) :     0 :   1.0 :  None :    None : False : False
+        (2, 2) :     0 :   0.0 :  None :    None : False : False
+        (2, 3) :     0 :   0.0 :  None :    None : False : False
+        (2, 4) :     0 :   0.0 :  None :    None : False : False
+        (3, 0) :     0 :   1.0 :  None :    None : False : False
+        (3, 1) :     0 :   1.0 :  None :    None : False : False
+        (3, 2) :     0 :   1.0 :  None :    None : False : False
+        (3, 3) :     0 :   0.0 :  None :    None : False : False
+        (3, 4) :     0 :   1.0 :  None :    None : False : False
+        (4, 0) :     0 :   1.0 :  None :    None : False : False
+        (4, 1) :     0 :   1.0 :  None :    None : False : False
+        (4, 2) :     0 :   1.0 :  None :    None : False : False
+        (4, 3) :     0 :   0.0 :  None :    None : False : False
+        (4, 4) :     0 :   0.0 :  None :    None : False : False
+    depDiffZ2 : Size=25, Index=depDiffZ2_index, Domain=NonNegativeIntegers
+        Key    : Lower : Value : Upper : Initial : Fixed : Stale
+        (0, 0) :     0 :   0.0 :  None :    None : False : False
+        (0, 1) :     0 :   1.0 :  None :    None : False : False
+        (0, 2) :     0 :   1.0 :  None :    None : False : False
+        (0, 3) :     0 :   1.0 :  None :    None : False : False
+        (0, 4) :     0 :   1.0 :  None :    None : False : False
+        (1, 0) :     0 :   0.0 :  None :    None : False : False
+        (1, 1) :     0 :   0.0 :  None :    None : False : False
+        (1, 2) :     0 :   1.0 :  None :    None : False : False
+        (1, 3) :     0 :   1.0 :  None :    None : False : False
+        (1, 4) :     0 :   1.0 :  None :    None : False : False
+        (2, 0) :     0 :   0.0 :  None :    None : False : False
+        (2, 1) :     0 :   0.0 :  None :    None : False : False
+        (2, 2) :     0 :   0.0 :  None :    None : False : False
+        (2, 3) :     0 :   1.0 :  None :    None : False : False
+        (2, 4) :     0 :   1.0 :  None :    None : False : False
+        (3, 0) :     0 :   0.0 :  None :    None : False : False
+        (3, 1) :     0 :   0.0 :  None :    None : False : False
+        (3, 2) :     0 :   0.0 :  None :    None : False : False
+        (3, 3) :     0 :   0.0 :  None :    None : False : False
+        (3, 4) :     0 :   0.0 :  None :    None : False : False
+        (4, 0) :     0 :   0.0 :  None :    None : False : False
+        (4, 1) :     0 :   0.0 :  None :    None : False : False
+        (4, 2) :     0 :   0.0 :  None :    None : False : False
+        (4, 3) :     0 :   1.0 :  None :    None : False : False
+        (4, 4) :     0 :   0.0 :  None :    None : False : False
+    Miss : Size=30, Index=Miss_index, Domain=NonNegativeIntegers
+        Key    : Lower : Value : Upper : Initial : Fixed : Stale
+        (0, 0) :     0 :   0.0 :  None :    None : False : False
+        (0, 1) :     0 :   0.0 :  None :    None : False : False
+        (0, 2) :     0 :   0.0 :  None :    None : False : False
+        (0, 3) :     0 :   0.0 :  None :    None : False : False
+        (0, 4) :     0 :   0.0 :  None :    None : False : False
+        (0, 5) :     0 :   0.0 :  None :    None : False : False
+        (1, 0) :     0 :   1.0 :  None :    None : False : False
+        (1, 1) :     0 :   0.0 :  None :    None : False : False
+        (1, 2) :     0 :   0.0 :  None :    None : False : False
+        (1, 3) :     0 :   0.0 :  None :    None : False : False
+        (1, 4) :     0 :   0.0 :  None :    None : False : False
+        (1, 5) :     0 :   0.0 :  None :    None : False : False
+        (2, 0) :     0 :   0.0 :  None :    None : False : False
+        (2, 1) :     0 :   0.0 :  None :    None : False : False
+        (2, 2) :     0 :   0.0 :  None :    None : False : False
+        (2, 3) :     0 :   0.0 :  None :    None : False : False
+        (2, 4) :     0 :   0.0 :  None :    None : False : False
+        (2, 5) :     0 :   0.0 :  None :    None : False : False
+        (3, 0) :     0 :   1.0 :  None :    None : False : False
+        (3, 1) :     0 :   0.0 :  None :    None : False : False
+        (3, 2) :     0 :   0.0 :  None :    None : False : False
+        (3, 3) :     0 :   0.0 :  None :    None : False : False
+        (3, 4) :     0 :   0.0 :  None :    None : False : False
+        (3, 5) :     0 :   0.0 :  None :    None : False : False
+        (4, 0) :     0 :   0.0 :  None :    None : False : False
+        (4, 1) :     0 :   0.0 :  None :    None : False : False
+        (4, 2) :     0 :   0.0 :  None :    None : False : False
+        (4, 3) :     0 :   0.0 :  None :    None : False : False
+        (4, 4) :     0 :   0.0 :  None :    None : False : False
+        (4, 5) :     0 :   0.0 :  None :    None : False : False
+    Make : Size=30, Index=Make_index, Domain=NonNegativeIntegers
+        Key    : Lower : Value : Upper : Initial : Fixed : Stale
+        (0, 0) :     0 :   1.0 :  None :    None : False : False
+        (0, 1) :     0 :   1.0 :  None :    None : False : False
+        (0, 2) :     0 :   1.0 :  None :    None : False : False
+        (0, 3) :     0 :   1.0 :  None :    None : False : False
+        (0, 4) :     0 :   1.0 :  None :    None : False : False
+        (0, 5) :     0 :   1.0 :  None :    None : False : False
+        (1, 0) :     0 :   0.0 :  None :    None : False : False
+        (1, 1) :     0 :   1.0 :  None :    None : False : False
+        (1, 2) :     0 :   1.0 :  None :    None : False : False
+        (1, 3) :     0 :   1.0 :  None :    None : False : False
+        (1, 4) :     0 :   1.0 :  None :    None : False : False
+        (1, 5) :     0 :   1.0 :  None :    None : False : False
+        (2, 0) :     0 :   1.0 :  None :    None : False : False
+        (2, 1) :     0 :   1.0 :  None :    None : False : False
+        (2, 2) :     0 :   1.0 :  None :    None : False : False
+        (2, 3) :     0 :   1.0 :  None :    None : False : False
+        (2, 4) :     0 :   1.0 :  None :    None : False : False
+        (2, 5) :     0 :   1.0 :  None :    None : False : False
+        (3, 0) :     0 :   0.0 :  None :    None : False : False
+        (3, 1) :     0 :   1.0 :  None :    None : False : False
+        (3, 2) :     0 :   1.0 :  None :    None : False : False
+        (3, 3) :     0 :   1.0 :  None :    None : False : False
+        (3, 4) :     0 :   1.0 :  None :    None : False : False
+        (3, 5) :     0 :   1.0 :  None :    None : False : False
+        (4, 0) :     0 :   1.0 :  None :    None : False : False
+        (4, 1) :     0 :   1.0 :  None :    None : False : False
+        (4, 2) :     0 :   1.0 :  None :    None : False : False
+        (4, 3) :     0 :   1.0 :  None :    None : False : False
+        (4, 4) :     0 :   1.0 :  None :    None : False : False
+        (4, 5) :     0 :   1.0 :  None :    None : False : False
+    MissPos : Size=30, Index=MissPos_index, Domain=NonNegativeIntegers
+        Key    : Lower : Value : Upper : Initial : Fixed : Stale
+        (0, 0) :     0 :   0.0 :  None :    None : False : False
+        (0, 1) :     0 :   0.0 :  None :    None : False : False
+        (0, 2) :     0 :   0.0 :  None :    None : False : False
+        (0, 3) :     0 :   0.0 :  None :    None : False : False
+        (0, 4) :     0 :   0.0 :  None :    None : False : False
+        (0, 5) :     0 :   0.0 :  None :    None : False : False
+        (1, 0) :     0 :   5.0 :  None :    None : False : False
+        (1, 1) :     0 :   0.0 :  None :    None : False : False
+        (1, 2) :     0 :   0.0 :  None :    None : False : False
+        (1, 3) :     0 :   0.0 :  None :    None : False : False
+        (1, 4) :     0 :   0.0 :  None :    None : False : False
+        (1, 5) :     0 :   0.0 :  None :    None : False : False
+        (2, 0) :     0 :   0.0 :  None :    None : False : False
+        (2, 1) :     0 :   0.0 :  None :    None : False : False
+        (2, 2) :     0 :   0.0 :  None :    None : False : False
+        (2, 3) :     0 :   0.0 :  None :    None : False : False
+        (2, 4) :     0 :   0.0 :  None :    None : False : False
+        (2, 5) :     0 :   0.0 :  None :    None : False : False
+        (3, 0) :     0 :  45.0 :  None :    None : False : False
+        (3, 1) :     0 :   0.0 :  None :    None : False : False
+        (3, 2) :     0 :   0.0 :  None :    None : False : False
+        (3, 3) :     0 :   0.0 :  None :    None : False : False
+        (3, 4) :     0 :   0.0 :  None :    None : False : False
+        (3, 5) :     0 :   0.0 :  None :    None : False : False
+        (4, 0) :     0 :   0.0 :  None :    None : False : False
+        (4, 1) :     0 :   0.0 :  None :    None : False : False
+        (4, 2) :     0 :   0.0 :  None :    None : False : False
+        (4, 3) :     0 :   0.0 :  None :    None : False : False
+        (4, 4) :     0 :   0.0 :  None :    None : False : False
+        (4, 5) :     0 :   0.0 :  None :    None : False : False
+    MissNeg : Size=30, Index=MissNeg_index, Domain=NonNegativeIntegers
+        Key    : Lower : Value  : Upper : Initial : Fixed : Stale
+        (0, 0) :     0 :    5.0 :  None :    None : False : False
+        (0, 1) :     0 :    5.0 :  None :    None : False : False
+        (0, 2) :     0 :   25.0 :  None :    None : False : False
+        (0, 3) :     0 : 9074.0 :  None :    None : False : False
+        (0, 4) :     0 : 9074.0 :  None :    None : False : False
+        (0, 5) :     0 : 9074.0 :  None :    None : False : False
+        (1, 0) :     0 :    0.0 :  None :    None : False : False
+        (1, 1) :     0 :    5.0 :  None :    None : False : False
+        (1, 2) :     0 : 9099.0 :  None :    None : False : False
+        (1, 3) :     0 : 9099.0 :  None :    None : False : False
+        (1, 4) :     0 : 9099.0 :  None :    None : False : False
+        (1, 5) :     0 : 9099.0 :  None :    None : False : False
+        (2, 0) :     0 :    2.0 :  None :    None : False : False
+        (2, 1) :     0 :    2.0 :  None :    None : False : False
+        (2, 2) :     0 :   40.0 :  None :    None : False : False
+        (2, 3) :     0 :   40.0 :  None :    None : False : False
+        (2, 4) :     0 :   70.0 :  None :    None : False : False
+        (2, 5) :     0 :  100.0 :  None :    None : False : False
+        (3, 0) :     0 :    0.0 :  None :    None : False : False
+        (3, 1) :     0 : 8954.0 :  None :    None : False : False
+        (3, 2) :     0 : 8954.0 :  None :    None : False : False
+        (3, 3) :     0 : 8954.0 :  None :    None : False : False
+        (3, 4) :     0 : 8954.0 :  None :    None : False : False
+        (3, 5) :     0 : 8954.0 :  None :    None : False : False
+        (4, 0) :     0 :   85.0 :  None :    None : False : False
+        (4, 1) :     0 :  110.0 :  None :    None : False : False
+        (4, 2) :     0 : 8709.0 :  None :    None : False : False
+        (4, 3) :     0 : 8709.0 :  None :    None : False : False
+        (4, 4) :     0 : 8709.0 :  None :    None : False : False
+        (4, 5) :     0 : 8709.0 :  None :    None : False : False
+    ariDiffPos : Size=10, Index=ariDiffPos_index, Domain=NonNegativeIntegers
+        Key    : Lower : Value : Upper : Initial : Fixed : Stale
+        (0, 0) :     0 :   0.0 :  None :    None : False : False
+        (0, 1) :     0 :   0.0 :  None :    None : False : False
+        (1, 0) :     0 :   0.0 :  None :    None : False : False
+        (1, 1) :     0 :   0.0 :  None :    None : False : False
+        (2, 0) :     0 :   0.0 :  None :    None : False : False
+        (2, 1) :     0 :   0.0 :  None :    None : False : False
+        (3, 0) :     0 :  30.0 :  None :    None : False : False
+        (3, 1) :     0 :  20.0 :  None :    None : False : False
+        (4, 0) :     0 :  20.0 :  None :    None : False : False
+        (4, 1) :     0 :  10.0 :  None :    None : False : False
+    ariDiffNeg : Size=10, Index=ariDiffNeg_index, Domain=NonNegativeIntegers
+        Key    : Lower : Value : Upper : Initial : Fixed : Stale
+        (0, 0) :     0 :  55.0 :  None :    None : False : False
+        (0, 1) :     0 :  65.0 :  None :    None : False : False
+        (1, 0) :     0 :  45.0 :  None :    None : False : False
+        (1, 1) :     0 :  55.0 :  None :    None : False : False
+        (2, 0) :     0 :  15.0 :  None :    None : False : False
+        (2, 1) :     0 :  25.0 :  None :    None : False : False
+        (3, 0) :     0 :   0.0 :  None :    None : False : False
+        (3, 1) :     0 :   0.0 :  None :    None : False : False
+        (4, 0) :     0 :   0.0 :  None :    None : False : False
+        (4, 1) :     0 :   0.0 :  None :    None : False : False
+    ariDiffZ1 : Size=10, Index=ariDiffZ1_index, Domain=NonNegativeIntegers
+        Key    : Lower : Value : Upper : Initial : Fixed : Stale
+        (0, 0) :     0 :   0.0 :  None :    None : False : False
+        (0, 1) :     0 :   0.0 :  None :    None : False : False
+        (1, 0) :     0 :   0.0 :  None :    None : False : False
+        (1, 1) :     0 :   0.0 :  None :    None : False : False
+        (2, 0) :     0 :   0.0 :  None :    None : False : False
+        (2, 1) :     0 :   0.0 :  None :    None : False : False
+        (3, 0) :     0 :   1.0 :  None :    None : False : False
+        (3, 1) :     0 :   1.0 :  None :    None : False : False
+        (4, 0) :     0 :   1.0 :  None :    None : False : False
+        (4, 1) :     0 :   1.0 :  None :    None : False : False
+    ariDiffZ2 : Size=10, Index=ariDiffZ2_index, Domain=NonNegativeIntegers
+        Key    : Lower : Value : Upper : Initial : Fixed : Stale
+        (0, 0) :     0 :   1.0 :  None :    None : False : False
+        (0, 1) :     0 :   1.0 :  None :    None : False : False
+        (1, 0) :     0 :   1.0 :  None :    None : False : False
+        (1, 1) :     0 :   1.0 :  None :    None : False : False
+        (2, 0) :     0 :   1.0 :  None :    None : False : False
+        (2, 1) :     0 :   1.0 :  None :    None : False : False
+        (3, 0) :     0 :   0.0 :  None :    None : False : False
+        (3, 1) :     0 :   0.0 :  None :    None : False : False
+        (4, 0) :     0 :   0.0 :  None :    None : False : False
+        (4, 1) :     0 :   0.0 :  None :    None : False : False
+
+  Objectives:
+    AirlineHappiness : Size=1, Index=None, Active=True
+        Key  : Active : Value
+        None :   True :  -2.0
+
+  Constraints:
+    SetFlightDuration : Size=5
+        Key : Lower : Body  : Upper
+          0 : 175.0 : 175.0 : 175.0
+          1 : 140.0 : 140.0 : 140.0
+          2 : 240.0 : 240.0 : 240.0
+          3 : 210.0 : 210.0 : 210.0
+          4 : 465.0 : 465.0 : 465.0
+    SequentialDeparture : Size=5
+        Key : Lower : Body  : Upper
+          0 :  None :   0.0 :   0.0
+          1 :  None :   0.0 :   0.0
+          2 :  None :   0.0 :   0.0
+          3 :  None :   0.0 :   0.0
+          4 :  None : -10.0 :   0.0
+    SequentualPushback : Size=5
+        Key : Lower : Body  : Upper
+          0 : 730.0 : 730.0 :  None
+          1 : 730.0 : 740.0 :  None
+          2 : 770.0 : 770.0 :  None
+          3 : 765.0 : 815.0 :  None
+          4 : 795.0 : 795.0 :  None
+    DepartureSeparation : Size=20
+        Key    : Lower : Body : Upper
+        (0, 1) :    10 : 10.0 :  None
+        (0, 2) :    10 : 40.0 :  None
+        (0, 3) :    10 : 85.0 :  None
+        (0, 4) :    10 : 75.0 :  None
+        (1, 0) :    10 : 10.0 :  None
+        (1, 2) :    10 : 30.0 :  None
+        (1, 3) :    10 : 75.0 :  None
+        (1, 4) :    10 : 65.0 :  None
+        (2, 0) :    10 : 40.0 :  None
+        (2, 1) :    10 : 30.0 :  None
+        (2, 3) :    10 : 45.0 :  None
+        (2, 4) :    10 : 35.0 :  None
+        (3, 0) :    10 : 85.0 :  None
+        (3, 1) :    10 : 75.0 :  None
+        (3, 2) :    10 : 45.0 :  None
+        (3, 4) :    10 : 10.0 :  None
+        (4, 0) :    10 : 75.0 :  None
+        (4, 1) :    10 : 65.0 :  None
+        (4, 2) :    10 : 35.0 :  None
+        (4, 3) :    10 : 10.0 :  None
+    DepDiffP1 : Size=20
+        Key    : Lower : Body : Upper
+        (0, 1) :   0.0 :  0.0 :   0.0
+        (0, 2) :   0.0 :  0.0 :   0.0
+        (0, 3) :   0.0 :  0.0 :   0.0
+        (0, 4) :   0.0 :  0.0 :   0.0
+        (1, 0) :   0.0 :  0.0 :   0.0
+        (1, 2) :   0.0 :  0.0 :   0.0
+        (1, 3) :   0.0 :  0.0 :   0.0
+        (1, 4) :   0.0 :  0.0 :   0.0
+        (2, 0) :   0.0 :  0.0 :   0.0
+        (2, 1) :   0.0 :  0.0 :   0.0
+        (2, 3) :   0.0 :  0.0 :   0.0
+        (2, 4) :   0.0 :  0.0 :   0.0
+        (3, 0) :   0.0 :  0.0 :   0.0
+        (3, 1) :   0.0 :  0.0 :   0.0
+        (3, 2) :   0.0 :  0.0 :   0.0
+        (3, 4) :   0.0 :  0.0 :   0.0
+        (4, 0) :   0.0 :  0.0 :   0.0
+        (4, 1) :   0.0 :  0.0 :   0.0
+        (4, 2) :   0.0 :  0.0 :   0.0
+        (4, 3) :   0.0 :  0.0 :   0.0
+    DepDiffP2 : Size=25
+        Key    : Lower : Body    : Upper
+        (0, 0) :  None :     0.0 :   0.0
+        (0, 1) :  None :     0.0 :   0.0
+        (0, 2) :  None :     0.0 :   0.0
+        (0, 3) :  None :     0.0 :   0.0
+        (0, 4) :  None :     0.0 :   0.0
+        (1, 0) :  None : -1430.0 :   0.0
+        (1, 1) :  None :     0.0 :   0.0
+        (1, 2) :  None :     0.0 :   0.0
+        (1, 3) :  None :     0.0 :   0.0
+        (1, 4) :  None :     0.0 :   0.0
+        (2, 0) :  None : -1400.0 :   0.0
+        (2, 1) :  None : -1410.0 :   0.0
+        (2, 2) :  None :     0.0 :   0.0
+        (2, 3) :  None :     0.0 :   0.0
+        (2, 4) :  None :     0.0 :   0.0
+        (3, 0) :  None : -1355.0 :   0.0
+        (3, 1) :  None : -1365.0 :   0.0
+        (3, 2) :  None : -1395.0 :   0.0
+        (3, 3) :  None :     0.0 :   0.0
+        (3, 4) :  None : -1430.0 :   0.0
+        (4, 0) :  None : -1365.0 :   0.0
+        (4, 1) :  None : -1375.0 :   0.0
+        (4, 2) :  None : -1405.0 :   0.0
+        (4, 3) :  None :     0.0 :   0.0
+        (4, 4) :  None :     0.0 :   0.0
+    DepDiffP3 : Size=25
+        Key    : Lower : Body    : Upper
+        (0, 0) :  None :     0.0 :   0.0
+        (0, 1) :  None : -1430.0 :   0.0
+        (0, 2) :  None : -1400.0 :   0.0
+        (0, 3) :  None : -1355.0 :   0.0
+        (0, 4) :  None : -1365.0 :   0.0
+        (1, 0) :  None :     0.0 :   0.0
+        (1, 1) :  None :     0.0 :   0.0
+        (1, 2) :  None : -1410.0 :   0.0
+        (1, 3) :  None : -1365.0 :   0.0
+        (1, 4) :  None : -1375.0 :   0.0
+        (2, 0) :  None :     0.0 :   0.0
+        (2, 1) :  None :     0.0 :   0.0
+        (2, 2) :  None :     0.0 :   0.0
+        (2, 3) :  None : -1395.0 :   0.0
+        (2, 4) :  None : -1405.0 :   0.0
+        (3, 0) :  None :     0.0 :   0.0
+        (3, 1) :  None :     0.0 :   0.0
+        (3, 2) :  None :     0.0 :   0.0
+        (3, 3) :  None :     0.0 :   0.0
+        (3, 4) :  None :     0.0 :   0.0
+        (4, 0) :  None :     0.0 :   0.0
+        (4, 1) :  None :     0.0 :   0.0
+        (4, 2) :  None :     0.0 :   0.0
+        (4, 3) :  None : -1430.0 :   0.0
+        (4, 4) :  None :     0.0 :   0.0
+    DepDiffP4 : Size=20
+        Key    : Lower : Body : Upper
+        (0, 1) :   1.0 :  1.0 :   1.0
+        (0, 2) :   1.0 :  1.0 :   1.0
+        (0, 3) :   1.0 :  1.0 :   1.0
+        (0, 4) :   1.0 :  1.0 :   1.0
+        (1, 0) :   1.0 :  1.0 :   1.0
+        (1, 2) :   1.0 :  1.0 :   1.0
+        (1, 3) :   1.0 :  1.0 :   1.0
+        (1, 4) :   1.0 :  1.0 :   1.0
+        (2, 0) :   1.0 :  1.0 :   1.0
+        (2, 1) :   1.0 :  1.0 :   1.0
+        (2, 3) :   1.0 :  1.0 :   1.0
+        (2, 4) :   1.0 :  1.0 :   1.0
+        (3, 0) :   1.0 :  1.0 :   1.0
+        (3, 1) :   1.0 :  1.0 :   1.0
+        (3, 2) :   1.0 :  1.0 :   1.0
+        (3, 4) :   1.0 :  1.0 :   1.0
+        (4, 0) :   1.0 :  1.0 :   1.0
+        (4, 1) :   1.0 :  1.0 :   1.0
+        (4, 2) :   1.0 :  1.0 :   1.0
+        (4, 3) :   1.0 :  1.0 :   1.0
+    ArrivalSeparation : Size=10
+        Key    : Lower : Body : Upper
+        (0, 0) :    10 : 55.0 :  None
+        (0, 1) :    10 : 65.0 :  None
+        (1, 0) :    10 : 45.0 :  None
+        (1, 1) :    10 : 55.0 :  None
+        (2, 0) :    10 : 15.0 :  None
+        (2, 1) :    10 : 25.0 :  None
+        (3, 0) :    10 : 30.0 :  None
+        (3, 1) :    10 : 20.0 :  None
+        (4, 0) :    10 : 20.0 :  None
+        (4, 1) :    10 : 10.0 :  None
+    AriDiffP1 : Size=10
+        Key    : Lower : Body : Upper
+        (0, 0) :   0.0 :  0.0 :   0.0
+        (0, 1) :   0.0 :  0.0 :   0.0
+        (1, 0) :   0.0 :  0.0 :   0.0
+        (1, 1) :   0.0 :  0.0 :   0.0
+        (2, 0) :   0.0 :  0.0 :   0.0
+        (2, 1) :   0.0 :  0.0 :   0.0
+        (3, 0) :   0.0 :  0.0 :   0.0
+        (3, 1) :   0.0 :  0.0 :   0.0
+        (4, 0) :   0.0 :  0.0 :   0.0
+        (4, 1) :   0.0 :  0.0 :   0.0
+    AriDiffP2 : Size=10
+        Key    : Lower : Body    : Upper
+        (0, 0) :  None :     0.0 :   0.0
+        (0, 1) :  None :     0.0 :   0.0
+        (1, 0) :  None :     0.0 :   0.0
+        (1, 1) :  None :     0.0 :   0.0
+        (2, 0) :  None :     0.0 :   0.0
+        (2, 1) :  None :     0.0 :   0.0
+        (3, 0) :  None : -1410.0 :   0.0
+        (3, 1) :  None : -1420.0 :   0.0
+        (4, 0) :  None : -1420.0 :   0.0
+        (4, 1) :  None : -1430.0 :   0.0
+    AriDiffP3 : Size=10
+        Key    : Lower : Body    : Upper
+        (0, 0) :  None : -1385.0 :   0.0
+        (0, 1) :  None : -1375.0 :   0.0
+        (1, 0) :  None : -1395.0 :   0.0
+        (1, 1) :  None : -1385.0 :   0.0
+        (2, 0) :  None : -1425.0 :   0.0
+        (2, 1) :  None : -1415.0 :   0.0
+        (3, 0) :  None :     0.0 :   0.0
+        (3, 1) :  None :     0.0 :   0.0
+        (4, 0) :  None :     0.0 :   0.0
+        (4, 1) :  None :     0.0 :   0.0
+    AriDiffP4 : Size=10
+        Key    : Lower : Body : Upper
+        (0, 0) :   1.0 :  1.0 :   1.0
+        (0, 1) :   1.0 :  1.0 :   1.0
+        (1, 0) :   1.0 :  1.0 :   1.0
+        (1, 1) :   1.0 :  1.0 :   1.0
+        (2, 0) :   1.0 :  1.0 :   1.0
+        (2, 1) :   1.0 :  1.0 :   1.0
+        (3, 0) :   1.0 :  1.0 :   1.0
+        (3, 1) :   1.0 :  1.0 :   1.0
+        (4, 0) :   1.0 :  1.0 :   1.0
+        (4, 1) :   1.0 :  1.0 :   1.0
+    MissPart1 : Size=30
+        Key    : Lower : Body : Upper
+        (0, 0) :   1.0 :  1.0 :   1.0
+        (0, 1) :   1.0 :  1.0 :   1.0
+        (0, 2) :   1.0 :  1.0 :   1.0
+        (0, 3) :   1.0 :  1.0 :   1.0
+        (0, 4) :   1.0 :  1.0 :   1.0
+        (0, 5) :   1.0 :  1.0 :   1.0
+        (1, 0) :   1.0 :  1.0 :   1.0
+        (1, 1) :   1.0 :  1.0 :   1.0
+        (1, 2) :   1.0 :  1.0 :   1.0
+        (1, 3) :   1.0 :  1.0 :   1.0
+        (1, 4) :   1.0 :  1.0 :   1.0
+        (1, 5) :   1.0 :  1.0 :   1.0
+        (2, 0) :   1.0 :  1.0 :   1.0
+        (2, 1) :   1.0 :  1.0 :   1.0
+        (2, 2) :   1.0 :  1.0 :   1.0
+        (2, 3) :   1.0 :  1.0 :   1.0
+        (2, 4) :   1.0 :  1.0 :   1.0
+        (2, 5) :   1.0 :  1.0 :   1.0
+        (3, 0) :   1.0 :  1.0 :   1.0
+        (3, 1) :   1.0 :  1.0 :   1.0
+        (3, 2) :   1.0 :  1.0 :   1.0
+        (3, 3) :   1.0 :  1.0 :   1.0
+        (3, 4) :   1.0 :  1.0 :   1.0
+        (3, 5) :   1.0 :  1.0 :   1.0
+        (4, 0) :   1.0 :  1.0 :   1.0
+        (4, 1) :   1.0 :  1.0 :   1.0
+        (4, 2) :   1.0 :  1.0 :   1.0
+        (4, 3) :   1.0 :  1.0 :   1.0
+        (4, 4) :   1.0 :  1.0 :   1.0
+        (4, 5) :   1.0 :  1.0 :   1.0
+    MissPart2 : Size=30
+        Key    : Lower : Body : Upper
+        (0, 0) :   0.0 :  0.0 :   0.0
+        (0, 1) :   0.0 :  0.0 :   0.0
+        (0, 2) :   0.0 :  0.0 :   0.0
+        (0, 3) :   0.0 :  0.0 :   0.0
+        (0, 4) :   0.0 :  0.0 :   0.0
+        (0, 5) :   0.0 :  0.0 :   0.0
+        (1, 0) :   0.0 :  0.0 :   0.0
+        (1, 1) :   0.0 :  0.0 :   0.0
+        (1, 2) :   0.0 :  0.0 :   0.0
+        (1, 3) :   0.0 :  0.0 :   0.0
+        (1, 4) :   0.0 :  0.0 :   0.0
+        (1, 5) :   0.0 :  0.0 :   0.0
+        (2, 0) :   0.0 :  0.0 :   0.0
+        (2, 1) :   0.0 :  0.0 :   0.0
+        (2, 2) :   0.0 :  0.0 :   0.0
+        (2, 3) :   0.0 :  0.0 :   0.0
+        (2, 4) :   0.0 :  0.0 :   0.0
+        (2, 5) :   0.0 :  0.0 :   0.0
+        (3, 0) :   0.0 :  0.0 :   0.0
+        (3, 1) :   0.0 :  0.0 :   0.0
+        (3, 2) :   0.0 :  0.0 :   0.0
+        (3, 3) :   0.0 :  0.0 :   0.0
+        (3, 4) :   0.0 :  0.0 :   0.0
+        (3, 5) :   0.0 :  0.0 :   0.0
+        (4, 0) :   0.0 :  0.0 :   0.0
+        (4, 1) :   0.0 :  0.0 :   0.0
+        (4, 2) :   0.0 :  0.0 :   0.0
+        (4, 3) :   0.0 :  0.0 :   0.0
+        (4, 4) :   0.0 :  0.0 :   0.0
+        (4, 5) :   0.0 :  0.0 :   0.0
+    MissPart3 : Size=30
+        Key    : Lower : Body    : Upper
+        (0, 0) :  None :     0.0 :   0.0
+        (0, 1) :  None :     0.0 :   0.0
+        (0, 2) :  None :     0.0 :   0.0
+        (0, 3) :  None :     0.0 :   0.0
+        (0, 4) :  None :     0.0 :   0.0
+        (0, 5) :  None :     0.0 :   0.0
+        (1, 0) :  None : -9994.0 :   0.0
+        (1, 1) :  None :     0.0 :   0.0
+        (1, 2) :  None :     0.0 :   0.0
+        (1, 3) :  None :     0.0 :   0.0
+        (1, 4) :  None :     0.0 :   0.0
+        (1, 5) :  None :     0.0 :   0.0
+        (2, 0) :  None :     0.0 :   0.0
+        (2, 1) :  None :     0.0 :   0.0
+        (2, 2) :  None :     0.0 :   0.0
+        (2, 3) :  None :     0.0 :   0.0
+        (2, 4) :  None :     0.0 :   0.0
+        (2, 5) :  None :     0.0 :   0.0
+        (3, 0) :  None : -9954.0 :   0.0
+        (3, 1) :  None :     0.0 :   0.0
+        (3, 2) :  None :     0.0 :   0.0
+        (3, 3) :  None :     0.0 :   0.0
+        (3, 4) :  None :     0.0 :   0.0
+        (3, 5) :  None :     0.0 :   0.0
+        (4, 0) :  None :     0.0 :   0.0
+        (4, 1) :  None :     0.0 :   0.0
+        (4, 2) :  None :     0.0 :   0.0
+        (4, 3) :  None :     0.0 :   0.0
+        (4, 4) :  None :     0.0 :   0.0
+        (4, 5) :  None :     0.0 :   0.0
+    MissPart4 : Size=30
+        Key    : Lower : Body    : Upper
+        (0, 0) :  None : -9994.0 :   0.0
+        (0, 1) :  None : -9994.0 :   0.0
+        (0, 2) :  None : -9974.0 :   0.0
+        (0, 3) :  None :  -925.0 :   0.0
+        (0, 4) :  None :  -925.0 :   0.0
+        (0, 5) :  None :  -925.0 :   0.0
+        (1, 0) :  None :     0.0 :   0.0
+        (1, 1) :  None : -9994.0 :   0.0
+        (1, 2) :  None :  -900.0 :   0.0
+        (1, 3) :  None :  -900.0 :   0.0
+        (1, 4) :  None :  -900.0 :   0.0
+        (1, 5) :  None :  -900.0 :   0.0
+        (2, 0) :  None : -9997.0 :   0.0
+        (2, 1) :  None : -9997.0 :   0.0
+        (2, 2) :  None : -9959.0 :   0.0
+        (2, 3) :  None : -9959.0 :   0.0
+        (2, 4) :  None : -9929.0 :   0.0
+        (2, 5) :  None : -9899.0 :   0.0
+        (3, 0) :  None :     0.0 :   0.0
+        (3, 1) :  None : -1045.0 :   0.0
+        (3, 2) :  None : -1045.0 :   0.0
+        (3, 3) :  None : -1045.0 :   0.0
+        (3, 4) :  None : -1045.0 :   0.0
+        (3, 5) :  None : -1045.0 :   0.0
+        (4, 0) :  None : -9914.0 :   0.0
+        (4, 1) :  None : -9889.0 :   0.0
+        (4, 2) :  None : -1290.0 :   0.0
+        (4, 3) :  None : -1290.0 :   0.0
+        (4, 4) :  None : -1290.0 :   0.0
+        (4, 5) :  None : -1290.0 :   0.0

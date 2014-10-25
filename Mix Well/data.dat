@@ -1,0 +1,11 @@
+param NumBoardMembers := 29;
+param NumSessions := 7;
+
+param Groups :=
+0   6
+1   6
+2   6
+3   4
+4   4
+5   4
+6   4;
